@@ -7,6 +7,10 @@
     android:layout_height="match_parent"
     tools:context="com.example.aula7.taller_practica.MainActivity">
 
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -58,6 +62,7 @@
 
 
                 <FrameLayout
+                    android:id="@+id/fl_1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/tv_texto"
@@ -70,8 +75,261 @@
 
 
                 </FrameLayout>
-                
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_below="@id/fl_1">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/staryellow"
+
+
+                        />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/staryellow"
+
+
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/staryellow"
+
+
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/staryellow"
+
+
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/staryellow"
+
+
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:gravity="right">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/eyeborder"
+
+
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/heartgreen"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+
+
+                        />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/commentborder"
+                        android:layout_marginRight="10dp"
+
+
+
+
+                        />
+                    </LinearLayout>
+
+
+
+
+
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:background="@drawable/border_layout"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="30dp"
+            android:elevation="10dp">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/postre2"
+                app:civ_border_width="3dp"
+                app:civ_border_color="@android:color/darker_gray"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+
+                >
+
+
+                <TextView
+                    android:id="@+id/tv_texto3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MADRAS CAFE"
+
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:id="@+id/tv_texto4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toLeftOf="@id/tv_texto5"
+                    android:textColor="@color/colorPrimaryDark"
+
+                    />
+
+                <TextView
+                    android:id="@+id/tv_texto5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="min"
+                    android:layout_marginRight="10dp"
+
+                    android:layout_alignParentRight="true"
+
+                    />
+
+                <FrameLayout
+                    android:id="@+id/fl_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_texto3"
+                    android:layout_margin="10dp">
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_gravity="center"
+                        android:background="@android:color/darker_gray"></View>
+                    <View
+                        android:layout_width="100dp"
+                        android:layout_height="10dp"
+                        android:background="@drawable/border_load_1"></View>
+
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_below="@id/fl_2">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/staryellow"
+
+
+                        />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/staryellow"
+
+
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/staryellow"
+
+
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/staryellow"
+
+
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/staryellow"
+
+
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:gravity="right">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/eyeborder"
+
+
+                            />
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/heartborder"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+
+
+                            />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/commentgreen"
+                            android:layout_marginRight="10dp"
+
+
+
+
+                            />
+                    </LinearLayout>
+
+
+
+
+
+
+                </LinearLayout>
 
             </RelativeLayout>
 
@@ -79,87 +337,173 @@
 
         </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:orientation="horizontal"
-        android:background="@drawable/border_layout"
-        android:layout_margin="10dp"
-        android:layout_marginBottom="30dp"
-        android:elevation="10dp">
-
-
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_margin="10dp"
-            android:src="@drawable/postre2"
-            app:civ_border_width="3dp"
-            app:civ_border_color="@android:color/darker_gray"
-            />
-
-        <RelativeLayout
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="10dp"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:background="@drawable/border_layout"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="30dp"
+            android:elevation="10dp">
 
-            >
 
-            
-            <TextView
-                android:id="@+id/tv_texto3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="MADRAS CAFE"
-
-                android:layout_marginLeft="10dp"/>
-
-            <TextView
-                android:id="@+id/tv_texto4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="12"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_toLeftOf="@id/tv_texto5"
-                android:textColor="@color/colorPrimaryDark"
-
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/postre3"
+                app:civ_border_width="3dp"
+                app:civ_border_color="@android:color/darker_gray"
                 />
 
-            <TextView
-                android:id="@+id/tv_texto5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="min"
-                android:layout_marginRight="10dp"
-
-                android:layout_alignParentRight="true"
-
-                />
-
-            <FrameLayout
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/tv_texto3"
-                android:layout_margin="10dp">
-                <View
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+
+                >
+
+
+                <TextView
+                    android:id="@+id/tv_texto6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="THE PHOENIX"
+
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:id="@+id/tv_texto7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="20"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toLeftOf="@id/tv_texto8"
+                    android:textColor="@color/colorAccent"
+
+                    />
+
+                <TextView
+                    android:id="@+id/tv_texto8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="min"
+                    android:layout_marginRight="10dp"
+
+                    android:layout_alignParentRight="true"
+
+                    />
+
+                <FrameLayout
+                    android:id="@+id/fl_3"
                     android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_gravity="center"
-                    android:background="@android:color/darker_gray"></View>
-                <View
-                    android:layout_width="100dp"
-                    android:layout_height="10dp"
-                    android:background="@drawable/border_load_blue"></View>
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_texto6"
+                    android:layout_margin="10dp">
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_gravity="center"
+                        android:background="@android:color/darker_gray"></View>
+                    <View
+                        android:layout_width="100dp"
+                        android:layout_height="10dp"
+                        android:background="@drawable/border_load_1"></View>
 
-            </FrameLayout>
+                </FrameLayout>
 
-        </RelativeLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_below="@id/fl_3">
 
 
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/staryellow"
+
+
+                        />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/staryellow"
+
+
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/staryellow"
+
+
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/staryellow"
+
+
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/staryellow"
+
+
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:gravity="right">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/eyeborder"
+
+
+                            />
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/heartborder"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+
+
+                            />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/commentborder"
+                            android:layout_marginRight="10dp"
+
+
+
+
+                            />
+                    </LinearLayout>
+
+
+
+
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
 
     </LinearLayout>
-
-    </LinearLayout>
-
+</ScrollView>
 </android.support.design.widget.CoordinatorLayout>
