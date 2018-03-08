@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aula7.taller_practica.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:background="@drawable/border_layout"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="30dp"
+            android:elevation="10dp">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/postre1"
+                app:civ_border_width="3dp"
+                app:civ_border_color="@android:color/darker_gray"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+
+                >
+                <ImageView
+                    android:id="@+id/im_check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/checkedgreen"/>
+
+
+                <TextView
+                    android:id="@+id/tv_texto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="THE OXFORD"
+                    android:layout_toRightOf="@id/im_check"
+                    android:layout_marginLeft="10dp"/>
+
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_texto"
+                    android:layout_margin="10dp">
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_gravity="center"
+                        android:background="@android:color/darker_gray"></View>
+
+
+                </FrameLayout>
+                
+
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:background="@drawable/border_layout"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="30dp"
+        android:elevation="10dp">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/postre2"
+            app:civ_border_width="3dp"
+            app:civ_border_color="@android:color/darker_gray"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+
+            >
+
+            
+            <TextView
+                android:id="@+id/tv_texto3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MADRAS CAFE"
+
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/tv_texto4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toLeftOf="@id/tv_texto5"
+                android:textColor="@color/colorPrimaryDark"
+
+                />
+
+            <TextView
+                android:id="@+id/tv_texto5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="min"
+                android:layout_marginRight="10dp"
+
+                android:layout_alignParentRight="true"
+
+                />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_texto3"
+                android:layout_margin="10dp">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="@android:color/darker_gray"></View>
+                <View
+                    android:layout_width="100dp"
+                    android:layout_height="10dp"
+                    android:background="@drawable/border_load_blue"></View>
+
+            </FrameLayout>
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
