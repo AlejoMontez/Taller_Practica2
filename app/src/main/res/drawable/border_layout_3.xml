@@ -3,10 +3,10 @@
     <item>
         <shape android:shape="rectangle">
             <!-- color de fondo del shape -->
-            <solid android:color="@color/colorAccent"/>
+            <solid android:color="@color/colorOrange"/>
             <!-- tamaño y color del shape -->
             <stroke
-                android:color="@color/colorAccent"
+                android:color="@color/colorOrange"
                 android:width="1dp"/>
             <!-- tamaño de las esquinas redondeadas -->
             <corners android:radius="10dp"/>

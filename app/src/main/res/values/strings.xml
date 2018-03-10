@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Taller_Practica</string>
+    <string name="the_oxford">THE OXFORD</string>
+    <string name="madras_cafe">MADRAS CAFE</string>
+    <string name="the_phoenix">THE PHOENIX</string>
+    <string name="eureka">EUREKA!</string>
+    <string name="bajis_cafe">BAJIS CAFE</string>
 </resources>
